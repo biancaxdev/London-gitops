@@ -28,4 +28,12 @@ team_settings:
   features:
     enable_host_users: true
     enable_software_inventory: true
+  webhook_settings:
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: https://webhook.site/#!/view/0b234460-5531-4945-8279-aa0d38f3ca0e
+      host_batch_size: 0
+      policy_ids:
+        - 376
+        - 373
 software:
